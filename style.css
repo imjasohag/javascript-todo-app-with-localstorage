@@ -1,0 +1,23 @@
+.li-class{
+    color: rgb(0, 0, 0);
+    text-decoration: line-through;
+}
+
+.fa-check-square{
+    pointer-events: none;
+}
+.fa-trash-o{
+    pointer-events: none;
+}
+.btn-danger{
+    opacity: 1;
+}
+
+.show{
+    display: flex!important;
+}
+
+.hide{
+    display: none!important;
+}
+

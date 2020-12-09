@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>toDo App</title>
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- bootstrap cdn -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container mt-5">
+                <!-- title of app -->
+            <div class="mt-5 justify-content-center">
+                <h1 class="text-center pt-5">TODO APP</h1>
+            </div>
+        
+                <!-- todo input -->
+            
+            <div>
+                <form class="form-group form-inline d-flex justify-content-center">
+                    <input id="todo_input"type="text" class="form-control m-2" placeholder="Enter todo">
+                    <button id="todo_btn"type="submit" class="btn btn-primary m-2"title="add new todo">
+                        <i class="fa fa-plus-square" aria-hidden="true"></i>
+                    </button>
+
+                    <!-- filter option -->
+
+                    <div class="form-group m-2">
+                        <select class="form-control" id="todo-filter">
+                          <option value="all">All</option>
+                          <option value="completed">completed</option>
+                          <option value="uncompleted">uncompleted</option>
+                        </select>
+                    </div>
+
+
+
+                </form>
+            </div>
+                <!-- todo container -->
+             
+                <ul class="list-group mx-5" id="todo-ul" > 
+
+                </ul>
+
+    </div> 
+
+
+<!-- jquery cdn -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- bootstrap cdn -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script>
+<!-- javascript files -->
+<script src="app.js"></script>    
+</body>
+</html>
